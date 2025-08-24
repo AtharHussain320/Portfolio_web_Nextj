@@ -1,2 +1,2 @@
-# Portfolio_web_Nextj
-Portfolio with Nextjs, Typescript and Tailwind CSS
+# Portfolio
+My portfolio with Nextjs, Typescript and Tailwind CSS
