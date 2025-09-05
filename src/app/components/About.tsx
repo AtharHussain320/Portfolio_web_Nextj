@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { url } from 'inspector';
-import Image from 'next/image';
+
+
 
 
 
 const skills = [
   "HTML", "CSS", "React", "Next.js", "TypeScript", "Node.js",
-  "Python", "Express.js", "MongoDB", "PostgreSQL", "OpenAI Agent SDK", "Docker",
+  "Python", "Express.js", "MongoDB", "SQL", "MySQL", "OpenAI Agent SDK", "Docker",
   "Git", "GitHub", "FastAPI", "Tailwind CSS", "Sanity", "CustomGPTs"
 ];
 

@@ -27,8 +27,8 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Real-time collaborative task management application with drag-and-drop functionality.",
+    title: "Coffe Shop Website",
+    description: "Coffe shop web application with modern technologies like Nextjs and also responsive design.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "UI"],
     githubUrl: "https://github.com/AtharHussain320/nextapp.git",
     demoUrl: "https://github.com/AtharHussain320/nextapp.git",
@@ -47,7 +47,7 @@ const projects: Project[] = [
     id: 4,
     title: "AI Chat Application",
     description: "Real-time chat application with AI-powered responses and sentiment analysis.",
-    techStack: ["Nextjs", "Typescript", "TailwinD CSS", "OpenAI"],
+    techStack: ["Nextjs", "Typescript", "Tailwind CSS", "OpenAI"],
     githubUrl: "https://github.com/AtharHussain320/AI_Chatbot.git",
     demoUrl: "https://ai-chatbot-sooty-nine.vercel.app/",
     image: "https://images.unsplash.com/photo-1587560699334-bea93391dcef?w=400&h=250&fit=crop"

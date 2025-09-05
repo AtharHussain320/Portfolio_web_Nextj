@@ -62,7 +62,7 @@ function HeroSection() {
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
           >
-            View Projects
+            Download CV
           </motion.button>
         </motion.div>
 
