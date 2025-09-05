@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and collaborations. Let's create something amazing together!
+            I&apos;m always interested in new opportunities and collaborations. Let's create something amazing together!
           </p>
         </motion.div>
 
@@ -75,16 +75,16 @@ const ContactSection: React.FC = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
               Feel free to reach out if you have any questions, want to discuss a project,
-              or just want to say hello. I'll get back to you as soon as possible!
+              or just want to say hello. I&apos;ll get back to you as soon as possible!
             </p>
 
             <div className="space-y-4">
               <motion.a
-                href="mailto:alex.johnson@email.com"
+                href="atharkeerio66320@gmail.com"
                 className="flex items-center space-x-4 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 whileHover={{ x: 5 }}
               >
@@ -93,21 +93,21 @@ const ContactSection: React.FC = () => {
               </motion.a>
 
               <motion.a
-                href="https://linkedin.com/in/alexjohnson"
+                href="https://www.linkedin.com/in/athar-hussain-404383312"
                 className="flex items-center space-x-4 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 whileHover={{ x: 5 }}
               >
                 <Linkedin className="w-6 h-6" />
-                <span>linkedin.com/in/alexjohnson</span>
+                <span>https://www.linkedin.com/in/athar-hussain-404383312</span>
               </motion.a>
 
               <motion.a
-                href="https://twitter.com/alexjohnson"
+                href="https://github.com/AtharHussain320"
                 className="flex items-center space-x-4 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 whileHover={{ x: 5 }}
               >
                 <Github className="w-6 h-6" />
-                <span>@alexjohnson</span>
+                <span>https://github.com/AtharHussain320</span>
               </motion.a>
             </div>
           </motion.div>

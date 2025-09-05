@@ -3,6 +3,7 @@
 
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 
 interface Project {
@@ -23,7 +24,7 @@ const projects: Project[] = [
     techStack: ["HTML", "CSS", "Javascript"],
     githubUrl: "https://github.com/AtharHussain320/E_book_project_01.git",
     demoUrl: "https://ebookprojec.netlify.app/",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    image: "/#"
   },
   {
     id: 2,
@@ -32,7 +33,7 @@ const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "UI"],
     githubUrl: "https://github.com/AtharHussain320/nextapp.git",
     demoUrl: "https://github.com/AtharHussain320/nextapp.git",
-    image: "https://sl.bing.net/be71VtSSg8G"
+    image: "/#"
   },
   {
     id: 3,
@@ -41,7 +42,7 @@ const projects: Project[] = [
     techStack: ["React", "D3.js", "Python", "FastAPI"],
     githubUrl: "#",
     demoUrl: "#",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop"
+    image: "/#"
   },
   {
     id: 4,
@@ -50,7 +51,7 @@ const projects: Project[] = [
     techStack: ["Nextjs", "Typescript", "Tailwind CSS", "OpenAI"],
     githubUrl: "https://github.com/AtharHussain320/AI_Chatbot.git",
     demoUrl: "https://ai-chatbot-sooty-nine.vercel.app/",
-    image: "https://images.unsplash.com/photo-1587560699334-bea93391dcef?w=400&h=250&fit=crop"
+    image: "/#"
   }
 ];
 
@@ -108,9 +109,11 @@ function ProjectCard({ project, index }: ProjectCardProps) {
       whileHover={{ y: -5 }}
     >
       <div className="relative overflow-hidden">
-        <img
+        <Image
           src={project.image}
           alt={project.title}
+          width={160}
+          height={160}
           className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
         />
         <div className="absolute inset-0 bg-black opacity-0 hover:opacity-10 transition-opacity duration-300"></div>

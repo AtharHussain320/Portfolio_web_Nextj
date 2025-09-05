@@ -56,15 +56,15 @@ const AboutSection: React.FC = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6">
-              Hello! I'm Athar Hussain
+              Hello! I&apos;m Athar Hussain
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with 1.5+ years of experience creating
+              I&apos;m a passionate full-stack developer with 1.5+ years of experience creating
               web applications that solve real-world problems. I love working with modern
               technologies and am always eager to learn new tools and frameworks.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing
+              When I&apos;m not coding, you can find me exploring new technologies, contributing
               to open-source projects, or sharing knowledge with the developer community.
             </p>
 
